@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/imgs/logo_transparent.png">
+    <title>IPv6 Ready Logo Site | News</title>
+    <link rel="stylesheet" href="/assets/build/css/main.css?id=076da7155cab786e97bc">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.1.1/themes/reset-min.css" integrity="sha256-JQ2nnTmybhOWSjfV3sa8mG0ZVhTCcORER4cyXc5HL10=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.1.1/themes/algolia-min.css" integrity="sha256-nkldBwBn2NQqRL1mod7BqHsJ6cEOn6u/ln6F/lI4CFo=" crossorigin="anonymous">
+</head>
+ <body> 
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="topnav">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a href="/index.html"><img src="/imgs/logo_transparent.png" alt="IPv6 Ready Logo" class="nav-logo"></a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link " href="/index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/apply.html">Apply</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/resources.html">Resources</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/news.html">News</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/faq.html">FAQ</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+            <li>
+                <a class="nav-link" href= "https://www.ipv6ready.org/db/index.php/public/?o=4">Approved Products</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron text-white">
+    <div class="container">
+        <h1 class="display-3">News</h1>
+    </div>
+</div>
+
+<div class="container">
+
+    <div id="news-list">
+    <div class="row d-flex justify-content-end">
+    <div class="col-md-4">
+        <div class="input-group" id="searchbox">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+            <input type="text" class="search" placeholder=" Search...">
+        </div>
+        <div id="hits"></div>
+    </div>
+</div>
+<ul class="list list-unstyled">
+            <li class="news-item" id="2018-11-07-test-spec-update">
+    <h3 class="news-title">2018-11-07 | IPv6 Core Test Specification Update</h3>
+    <hr>
+    <p>The Phase-2 Core Test Specifications have been updated (Minor Revision Up).</p>
+<p>View test specifications <a href="../resources/ipv6-core-protocols.html">here</a>.</p>
+</li>            <li class="news-item" id="2017-11-27-snmp-minor-revision">
+    <h3 class="news-title">2017-11-27 | SNMP Minor Revision Up</h3>
+    <hr>
+    <p>The Phase-2 SNMP Program Conformance Specification has undergone a Minor Revision Up (Version 1.0.4).</p>
+<p>Please see the <a href="../resources/snmp.html">technical page</a> for more details.</p>
+</li>            <li class="news-item" id="2017-03-20-ipsec-public-review">
+    <h3 class="news-title">2017-03-20 | IPsec Major Version Public Review</h3>
+    <hr>
+    <p>The IPsec Conformance Specification and Interoperability Scenario have undergone a Major Version.</p>
+<p>The documents are under public review and dry run through <strong>Monday 24th April 2017</strong> with a planned release on <strong>May 15, 2017.</strong></p>
+<p><strong>Summary of Changes:</strong></p>
+<ul>
+<li>Remove Obsolete algorithms, and Add Recommended algorithms</li>
+<li>Renumber test cases and reorganize sections to consolidate ESP test cases and simplify future updates</li>
+<li>Require IKEv2 keying by default</li>
+</ul>
+<p>The updated test documents can be found on the <a href="../resources/ikev2.html">Public Review Page</a>.</p>
+</li>            <li class="news-item" id="2017-03-20-ipv6-ready-core-logo-available">
+    <h3 class="news-title">2017-03-20 | Now Available: IPv6 Ready Core Logo (New Minor Revision 4.0.7)</h3>
+    <hr>
+    <p>The <a href="../resources/ipv6-core-protocols.html">IPv6 Ready Core Conformance Test Specification</a> has been updated with some minor changes as per the below:  </p>
+<ul>
+<li>Added a possible problem to 3.1.2B,D, 3.1.3 I-J, 3.1.4 H-I for devices that don’t support EUI-64 address due to privacy concerns.</li>
+<li>Removed requirement for the unused field in a Time Exceeded message (1.3.2B-D, 5.1.5A-B) to be zero due to RFC 4884.</li>
+<li>Added a requirement to check the Hop Limit of 255 in IPv6 Header of Redirect.</li>
+<li>Updated 4.1.8 to increase the hop limit due to attack vector if the device is forced to lower the hop limit.</li>
+<li>Added a possible problem to 2.1.1C for RFC 7048 support.</li>
+<li>Updated Unknown Destination Header from 7 to 17 since 7 has been allocated.</li>
+<li>Removed Common Test Setup from 3.2.5.</li>
+</ul>
+</li>            <li class="news-item" id="2017-01-18-examination-fee-announcement">
+    <h3 class="news-title">2017-01-18 | Examination Fee Announcement</h3>
+    <hr>
+    <p><strong>IMPORTANT NOTE:</strong> The IPv6 Ready Logo Committee would like to announce that CE Router applications received will be assessed a $1500 US dollar examination fee and all other applications will be assessed a $500 US dollar examination fee. The Examination lab may choose to waive this fee if the test results were performed at an approved lab as the fee may be covered under testing service fees.</p>
+</li>            <li class="news-item" id="2016-12-07-criterion-network-labs">
+    <h3 class="news-title">2016-12-07 | Criterion Network Labs is an approved IPv6 Ready Logo Laboratory</h3>
+    <hr>
+    <p>Criterion Network Labs, an independent network interoperability test lab announced today the addition of IPv6 Ready Logo Certifications to the list of offerings. As an IPv6 Forum approved laboratory, CNLabs will undertake certification testing for network product vendors globally.  </p>
+<p><a href="http://www.prweb.com/releases/2016/12/prweb13901917.htm">Read Full Release Here</a></p>
+</li>            <li class="news-item" id="2016-08-05-ce-router-conformance-revision">
+    <h3 class="news-title">2016-08-05 | CE Router Conformance Revision</h3>
+    <hr>
+    <p>A new revision of the IPv6 Ready CE Router Logo Conformance Specification is now available!  </p>
+<p><a href="../resources/cpe.html">CE Router Documents</a><br />
+<strong>Conformance (v1.0.1)</strong> - New Revision  </p>
+<p>Please send any comments in English to <strong>ipv6ready-info [a t] ipv6ready.org</strong>.</p>
+</li>            <li class="news-item" id="2016-01-29-first-devices-ipv6-ce-router-logo">
+    <h3 class="news-title">2016-01-29 | First Devices to Receive the IPv6 CE Router Logo</h3>
+    <hr>
+    <p>DURHAM, N.H.--(BUSINESS WIRE)--The University of New Hampshire InterOperability Laboratory (UNH-IOL), an independent provider of broad-based testing and standards conformance services for the networking industry, announced today that four customer edge (CE) routers have been approved for the IPv6 Ready CE Router Logo. Devices from Broadcom, Netgear and ZTE passed the necessary IPv6 test cases, enabling them to bear a mark established by the IPv6 Ready Logo Committee (v6LC). The IPv6 Ready Logo indicates to service providers that IPv6 will work on those models, allowing end users to utilize the new addressing service. Total IPv6 traffic increased dramatically in July 2015, when the American Registry for Internet Numbers (ARIN) reported that North America had exhausted its IPv4 addresses. As consumer Internet of Things (IoT) technologies gain traction, a trend on display at CES 2016, IPv6 traffic is expected to continue rising.</p>
+<p><a href="http://www.businesswire.com/news/home/20160121005212/en/UNH-IOL-Announces-Devices-Receive-IPv6-CE-Router">Read Full Release Here</a></p>
+</li>            <li class="news-item" id="2016-01-14-ce-router-conformance-interoperability-revision">
+    <h3 class="news-title">2016-01-14 | CE Router Conformance and Interoperability Revision</h3>
+    <hr>
+    <p>A new revision of the IPv6 Ready CE Router Logo Specifications is now available!  </p>
+<p><a href="../resources/cpe.html">CE Router Documents</a><br />
+<strong>Conformance (v1.0.0)</strong> - New Revision<br />
+<strong>Interoperability (v1.0.2)</strong> - New Revision  </p>
+<p>Please send any comments in English to <strong>ipv6ready-info [a t] ipv6ready.org</strong>.</p>
+</li>            <li class="news-item" id="2015-09-02-ipv6-ready-ce-router-logo-release">
+    <h3 class="news-title">2015-09-02 | IPv6 Ready CE Router Logo Release</h3>
+    <hr>
+    <p>A new release for the IPv6 Ready CE Router Logo Specifications is now available!</p>
+<p><a href="../resources/cpe.html">CE Router Documents</a></p>
+<p><strong>Conformance (v1.0.0b3)</strong> - Final Public review until 9/20
+<strong>Interoperability (v1.0.1)</strong> - New Revision</p>
+<p>Please send any comments in English to <strong>ipv6ready-info [a t] ipv6ready.org</strong>.</p>
+</li>    </ul>
+ <div class="row justify-content-md-center">
+    <ul class="pagination">
+                    <li><a href="/news.html"
+                class="selected">
+                1
+            </a></li>
+                    <li><a href="/2/news.html"
+                class="">
+                2
+            </a></li>
+                    <li><a href="/3/news.html"
+                class="">
+                3
+            </a></li>
+                    <li><a href="/4/news.html"
+                class="">
+                4
+            </a></li>
+                    <li><a href="/5/news.html"
+                class="">
+                5
+            </a></li>
+                    <li><a href="/6/news.html"
+                class="">
+                6
+            </a></li>
+                    <li><a href="/7/news.html"
+                class="">
+                7
+            </a></li>
+            </ul>
+</div>
+
+    <a class="btn" id="scroll_ubtn" href="#topnav" role="button">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+</div> <!-- /container -->
+
+<script src="/assets/build/js/main.js?id=c0dc0205830b198bc0a5"></script>
+<script src="/assets/build/js/search.js?id=99280659dd1390e38388"></script>
+</body>
+</html>
